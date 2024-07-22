@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    @apply bg-background text-primary text-sm
+}
+
+/* tbody tr{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+} */
+
+tbody td{
+    padding: 10px 0;
+}
